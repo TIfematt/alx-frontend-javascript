@@ -3,7 +3,7 @@
 export default function handleResponseFromAPI(promise) {
     promise.then(() => {
         console.log('Got a response from the API');
-    }).catch(() => {
-        console.log('The API is not working currently');
+    }).catch((err) => {
+        console.log('');
     });
 }
