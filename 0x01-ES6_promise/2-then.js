@@ -1,7 +1,7 @@
 /* eslint-disable */ 
 
 export default function handleResponseFromAPI(promise) {
-    const obj = {'status': 200, 'body': 'Success'}
+    const obj = { status: 200, body: 'Success'}
     return promise
         .then(() => obj)
         .catch(() => new Error())
