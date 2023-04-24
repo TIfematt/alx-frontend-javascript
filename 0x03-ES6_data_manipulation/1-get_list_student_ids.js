@@ -10,5 +10,3 @@ export default function getListStudentIds (arr) {
     return ids;
 }
 
-console.log(getListStudentIds("hello"));
-console.log(getListStudentIds(getListStudents()));
